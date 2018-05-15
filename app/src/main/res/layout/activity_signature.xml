@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SignatureActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_change_color"
+        android:layout_alignParentBottom="true"
+        android:textAllCaps="false"
+        android:text="@string/btn_label_change_signature_color"
+         />
+    <gauravtak.signaturepadandroiddemo.custom_views.SignatureView android:layout_height="match_parent"
+        android:layout_above="@+id/btn_change_color"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_launch_pad"
+        android:orientation="horizontal"
+        android:id="@+id/signature_view"
+        android:layout_width="match_parent" />
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SignaturePadAndroidDemo</string>
+    <string name="external_dir">SignatureStorage</string>
+    <string name="btn_label_change_signature_color">Change Signature Color</string>
+    <string name="alert_title_choose_color_for_signature">Choose color for signature</string>
+    <array name="colors_list">
+        <item name="black">Black Color</item>
+        <item name="black">Red Color</item>
+        <item name="black">Green Color</item>
+        <item name="black">Blue Color</item>
+        <item name="black">Light Sky Color</item>
+        <item name="black">Dark Sky Color</item>
+    </array>
+</resources>
